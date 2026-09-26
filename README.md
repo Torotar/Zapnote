@@ -32,7 +32,6 @@ AI 视觉整理需要用户配置兼容的服务接口。WebDAV 同步需要服�
 
 本仓库当前不包含 `hvigorw.bat` 命令行包装脚本；命令行构建方式需以本机 DevEco Studio 安装和项目生成的工具链为准。源码测试位于 `entry/src/test` 和 `entry/src/ohosTest`，请使用 DevEco Studio 中与当前 SDK 匹配的测试运行配置执行。
 
-GitHub [v1.4.0 Release](https://github.com/Torotar/Zapnote/releases/tag/v1.4.0) 提供现有的未签名 HAP：[下载 entry-default-unsigned.hap](https://github.com/Torotar/Zapnote/releases/download/v1.4.0/entry-default-unsigned.hap)。安装或分发前需要使用适用的签名配置重新构建或签名。
 
 ## 项目结构
 
