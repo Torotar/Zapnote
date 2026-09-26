@@ -1,0 +1,56 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "release",
+        "type": "HarmonyOS",
+        "material": {
+          "storeFile": "D:/Download/key/zapnote/release/zapnote.p12",
+          "storePassword": "0000001A08FEBB2A0CD43491972CBD9C62810B0B3A6EF460B72A046A4D0696DB2D13B3DF89870771C40A",
+          "keyAlias": "release",
+          "keyPassword": "0000001A2E0592E066C4AC39A95D7D7482AFE076C6DD9ED67302F3D5FD5DC67D85F244733C9F5265FA0E",
+          "signAlg": "SHA256withECDSA",
+          "profile": "D:/Download/key/zapnote/release/zapnoteRelease.p7b",
+          "certpath": "D:/Download/key/zapnote/release/zapnote.cer"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "release",
+        "targetSdkVersion": "6.1.0(23)",
+        "compatibleSdkVersion": "6.1.0(23)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
