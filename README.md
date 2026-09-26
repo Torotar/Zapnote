@@ -6,7 +6,7 @@
 
 ## 简介
 
-识录笔记（ZapNote）是一款使用 ArkTS 和 ArkUI 构建的 HarmonyOS 笔记应用，支持手机与 2 合 1 设备。它可以创建、编辑和整理笔记，从图片中识别文字，管理收藏并查看写作统计，也支持本地备份与 WebDAV 同步。
+识录笔记（ZapNote）是一款使用 ArkTS 和 ArkUI 构建的 HarmonyOS 笔记管理应用。它可以在设备上创建、编辑和整理笔记，通过图片识别提取文字，并提供收藏、写作统计、本地备份与 WebDAV 同步功能。
 
 ## 功能
 
@@ -44,7 +44,7 @@ hvigorw.bat --mode module -p module=entry assembleHap --no-daemon
 
 ## Overview
 
-ZapNote (识录笔记) is a HarmonyOS note-taking app built with ArkTS and ArkUI for phones and 2-in-1 devices. It lets users create, edit, and organize notes, recognize text in images, manage favorites, and view writing statistics. Local backup and WebDAV sync are also available.
+ZapNote (识录笔记) is a HarmonyOS note manager built with ArkTS and ArkUI. It lets users create, edit, and organize notes on their devices, extract text from images, and view favorites and writing statistics, with local backup and WebDAV sync also available.
 
 ### Features
 
