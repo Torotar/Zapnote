@@ -21,7 +21,7 @@ hvigorw.bat --mode module -p module=entry assembleHap --no-daemon
 
 ## 构建包
 
-仓库提供当前已有的 **未签名 HAP**：[下载 entry-default-unsigned.hap](entry/build/default/outputs/default/entry-default-unsigned.hap)。该包未签名，安装或分发前需要使用适用的签名配置重新构建或签名。
+当前版本的 **未签名 HAP** 发布在 GitHub Release：[下载 entry-default-unsigned.hap](https://github.com/Torotar/Zapnote/releases/download/v1.4.0/entry-default-unsigned.hap)。该包未签名，安装或分发前需要使用适用的签名配置重新构建或签名。
 
 ## 项目说明
 
@@ -55,7 +55,7 @@ hvigorw.bat --mode module -p module=entry assembleHap --no-daemon
 
 ### Build package
 
-This repository includes the existing **unsigned HAP**: [Download entry-default-unsigned.hap](entry/build/default/outputs/default/entry-default-unsigned.hap). It is unsigned; use an appropriate signing configuration to rebuild or sign it before installation or distribution.
+The current **unsigned HAP** is published as a GitHub Release asset: [Download entry-default-unsigned.hap](https://github.com/Torotar/Zapnote/releases/download/v1.4.0/entry-default-unsigned.hap). It is unsigned; use an appropriate signing configuration to rebuild or sign it before installation or distribution.
 
 ### Project details
 
